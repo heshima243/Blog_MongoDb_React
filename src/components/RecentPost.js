@@ -26,7 +26,7 @@ const RecentPost = ({ post }) => {
         }}
       >
         <Card style={{ flexGrow: 1 }}>
-          <Link to={`/read/${post.id}`}>
+          <Link to={`/read/${post._id}`}>
             <CardMedia
               component="img"
               height="200"
@@ -45,7 +45,7 @@ const RecentPost = ({ post }) => {
                   transition: "transform 0.2s",
                   display: "inline-block",
                 }}
-                to={`/read/${post.id}`}
+                to={`/read/${post._id}`}
                 onMouseEnter={(e) => {
                   e.target.style.transform = "scale(1.1)";
                 }}
