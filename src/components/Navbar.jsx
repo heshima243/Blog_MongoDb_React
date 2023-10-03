@@ -19,7 +19,7 @@ import { Divider } from "@mui/material";
 const drawerWidth = 240;
 const navItems = [
   { label: "Home", path: "/" },
-  { label: "Post", path: "/post" },
+  // { label: "Post", path: "/post" },
   { label: "Projects", path: "/projects" },
 ];
 
