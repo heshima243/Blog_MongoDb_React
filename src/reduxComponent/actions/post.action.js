@@ -33,7 +33,7 @@ export const getPost = () => {
 
 export const addPost =(data)=>{
     return (dispatch)=>{
-        return axios.post("http://localhost:5000/post",data)
+        return axios.post("https://crud-api-22gj.onrender.com/post",data)
         .then((res)=>{
            dispatch({type:ADD_POST, payload:data})
          console.log('success');
@@ -51,7 +51,7 @@ export const addPost =(data)=>{
 export const editPost = (data) => {
   return (dispatch) => {
     return axios
-      .put(`http://localhost:5000/updateList/${data.id}`, data) 
+      .put(`https://crud-api-22gj.onrender.com/updateList/${data.id}`, data) 
       .then((res) => {
         dispatch({ type: EDIT_POST, payload: res.data });
         console.log("action edit:", res.data);
@@ -65,7 +65,7 @@ export const editPost = (data) => {
 
 export const deletePost =(postId)=>{
     return (dispatch)=>{
-        return axios.get(`http://localhost:5000/delete/${postId}`)
+        return axios.get(`https://crud-api-22gj.onrender.com/delete/${postId}`)
         .then((res)=>{
            dispatch({type:DELETE_POST, payload:postId})
         }
