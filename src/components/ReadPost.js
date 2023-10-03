@@ -107,11 +107,7 @@ const ReadPost = () => {
           
             <CardActions>
 
-<<<<<<< HEAD
                
-=======
-             
->>>>>>> d963e877d81c17fedd5515f9b1efff3b3e7c4c01
              
               
                 {/* <div>
