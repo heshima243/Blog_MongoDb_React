@@ -14,7 +14,7 @@ export const DELETE_POST="DELETE_POST"
 export const getPost = () => {
   return (dispatch) => {
     // Effectuez la requête HTTP à l'URL de l'API
-    return axios.get("http://localhost:5000/list")
+    return axios.get("https://crud-api-22gj.onrender.com/list")
       .then((res) => {
         // Extract the "post" property from the response data
         const posts = res.data.post;
