@@ -107,23 +107,23 @@ const ReadPost = () => {
           
             <CardActions>
 
-                <Button
-                    onClick={handleDelete}
-                    variant="outlined"
-                    color="error"
-                    style={{ marginRight: "5px" }}
-                  >
-                    Delete
-                  </Button>
+                // <Button
+                //     onClick={handleDelete}
+                //     variant="outlined"
+                //     color="error"
+                //     style={{ marginRight: "5px" }}
+                //   >
+                //     Delete
+                //   </Button>
 
-                  <Button variant="outlined" color="secondary">
-                    <Link
-                      style={{ textDecoration: "none" }}
-                      to={`/edith/${post._id}`}
-                    >
-                      Edit
-                    </Link>
-                  </Button>
+                //   <Button variant="outlined" color="secondary">
+                //     <Link
+                //       style={{ textDecoration: "none" }}
+                //       to={`/edith/${post._id}`}
+                //     >
+                //       Edit
+                //     </Link>
+                //   </Button>
              
               
                 {/* <div>
